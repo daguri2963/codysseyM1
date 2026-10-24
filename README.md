@@ -10,8 +10,8 @@
 
 ## 이 저장소의 문서
 
-- [기획서 검토·보완본](영양제-첫걸음-기획서-PRD.md)
-- [기능 요구 명세서 검토·보완본](영양제-첫걸음-기능요구명세서.md)
+- [기획서 검토·보완본](project-plan.md)
+- [기능 요구 명세서 검토·보완본](functional-requirements.md)
 
 이 저장소는 문서 검토·보완본과 화면 이미지를 공유하는 개인 저장소입니다. 아래 로컬 실행 안내와 구현·검증 기록은 [원본 프로젝트 sayknow/M2-1](https://github.com/sayknow/M2-1/tree/production)에 대한 내용입니다. 소스 코드와 최종 과제 제출 자료는 원본 저장소에서 관리합니다.
 
@@ -250,6 +250,7 @@ API 주소·포트를 바꾸면 프런트의 `VITE_API_BASE_URL`과 서버의 `A
 | [개발 참여 안내](https://github.com/sayknow/M2-1/blob/production/CONTRIBUTING.md) | 개발·검사·브랜치 보호 규칙 |
 
 운영 브랜치는 `production`입니다. 변경은 `canary`(개발·로컬 검사) → `dev`(통합) → `production`(운영) 순으로 반영합니다. `main`은 초기 프로토타입 보존용입니다.
+
 
 
 
